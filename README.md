@@ -45,6 +45,6 @@ Might need to make some modification at those viewport sizes.
 
 ## Author
 
-- Website - [Katherine Ebel](https://www.your-site.com)
+- Website - [Katherine Ebel](https://katherineebel.github.io/fem-3-column-preview-card-component/)
 - Frontend Mentor - [@KatherineEbel](https://www.frontendmentor.io/profile/KatherineEbel)
 - Twitter - [@Kathy_Ebel](https://www.twitter.com/Kathy_Ebel)
