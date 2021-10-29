@@ -4,17 +4,13 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [Built with](#built-with)
-  - [Continued development](#continued-development)
-- [Author](#author)
+- [The challenge](#the-challenge)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Built with](#built-with)
+- [Continued development](#continued-development)
+- [Author](#author)  
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
-## Overview
 
 ### The challenge
 
@@ -31,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/KatherineEbel/fem-3-column-preview-card-component)
-- Live Site URL: [Github Page](https://your-live-site-url.com)
+- Live Site URL: [Github Page](https://katherineebel.github.io/fem-3-column-preview-card-component/)
 
 
 ### Built with
@@ -50,5 +46,5 @@ Might need to make some modification at those viewport sizes.
 ## Author
 
 - Website - [Katherine Ebel](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@KatherineEbel](https://www.frontendmentor.io/profile/KatherineEbel)
 - Twitter - [@Kathy_Ebel](https://www.twitter.com/Kathy_Ebel)
