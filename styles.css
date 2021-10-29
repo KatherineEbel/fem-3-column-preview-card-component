@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body, h1, p, article, button {
+  margin: 0;
+}
+
+:root {
+  --white: #FFFFFF;
+  --white-100: #F2F2F2;
+  --orange: #E28625;
+  --green: #006971;
+  --green-dark: #004140;
+  
+  --font-heading: 2.5rem;
+  --font-body: 15px;
+}
+
+body {
+  position: relative;
+  display: grid;
+  place-items: center;
+  font-family: 'Big Shoulders Display', cursive;
+  min-height: 100vh;
+  min-width: 100vw;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--font-body);
+  line-height: 25px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.attribution {
+  position: absolute;
+  bottom: -1rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 11px;
+  text-align: center;
+  align-self: start;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: .5rem;
+  padding: 3rem;
+  height: 442px;
+}
+
+.title {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: var(--font-heading);
+  color: var(--white-100);
+  margin: 1.5rem 0;
+  text-transform: uppercase;
+}
+
+.card .copy {
+  color: var(--white);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: var(--font-body);
+  max-width: 80%;
+  flex-grow: 1;
+}
+
+.sedans {
+  background: var(--orange);
+  color: var(--orange)
+}
+
+.suvs {
+  background: var(--green);
+  color: var(--green);
+  transform: translateY(-10px);
+}
+
+.luxury {
+  background: var(--green-dark);
+  color: var(--green-dark);
+  transform: translateY(-20px);
+}
+
+
+.btn {
+  background: var(--white);
+  border: 1px solid var(--white);
+  border-radius: 25px;
+  color: inherit;
+  cursor: pointer;
+  text-transform: capitalize;
+  transition: all 300ms ease-in-out;
+  width: 146px;
+  height: 48px;
+  /*margin-top: auto;*/
+  margin-bottom: .5rem;
+}
+
+.btn:hover {
+  background: transparent;
+  color: var(--white);
+}
+
+@media (min-width: 615px) {
+  .container {
+    margin-right: -20px;
+  }
+  .suvs {
+    transform: translateX(-10px);
+    z-index: 10;
+  }
+  
+  .luxury {
+    transform: translateY(0);
+  }
+  
+}
+
+@media (min-width: 914px) {
+  .card {
+    height: 500px;
+  }
+  
+  .suvs {
+    transform: translateX(-10px);
+    z-index: auto;
+  }
+  
+  .luxury {
+    transform: translateX(-20px);
+  }
+  
+}
